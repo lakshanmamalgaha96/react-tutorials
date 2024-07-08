@@ -1,6 +1,7 @@
 import './App.css';
 import Conditions from './day3/conditions'
 import UseStateHook from './day3/use-state-hook'
+import UseEfectHook from './day4/use-effect-hook'
 function App() {
 
   // console.log("I am console")
@@ -17,7 +18,8 @@ function App() {
       <header className="App-header">
         {/* <button onClick={()=>clickMe(3)}>Click me</button> */}
         {/* <Conditions value={20}/> */}
-        <UseStateHook />
+        {/* <UseStateHook /> */}
+        <UseEfectHook/>
       </header>
     </div>
   );

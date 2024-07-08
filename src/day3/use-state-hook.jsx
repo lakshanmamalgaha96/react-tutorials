@@ -36,7 +36,7 @@ const UseStateHook = () => {
 
 	</div>
 
-}
+} 
 
 const Component = ({ value }) => {
 
