@@ -1,11 +1,11 @@
 import './App.css';
-import ComponentA from './day5/componentA'
+import MyComponent from './day5-useRef/myComponent'
 
 function App() {
 
   return (
     <div className="App" style={{ color: "red" }}>
-      <ComponentA />
+      <MyComponent />
     </div>
   );
 }
